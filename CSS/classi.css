@@ -8,10 +8,17 @@
    }
 
 .justify-content-end {
-    justify-content: flex-end
+    justify-content: flex-end;
    }
 
 .align-item {
 
     align-items: center;
 }
+
+
+.form-style {
+   font-weight: bold;
+   color: rgb(72, 72, 72);
+}
+

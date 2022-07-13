@@ -16,21 +16,22 @@
 
 <body>
 
-<div>                                  <!--Div creato per includere in header anche i successivi 5 form-->
- <header class="d-flex align-item">
-  <a href="https://www.nintendo.com/">
-  <img src="immagini/nintendo-red.png" alt="logo Nintendo su sfondo rosso"></a>
-  <form action="">
+ <header>
+
+  <div class="d-flex align-item">
+   <a href="https://www.nintendo.com/">
+   <img src="immagini/nintendo-red.png" alt="logo Nintendo su sfondo rosso"></a>
+   <form action="">
     <input type="search" placeholder="Search games, hardware, news, etc" name="categories">
-        <select id="categories" name="categories">
-          <option>All categories</option>
-          <option>Games</option>
-          <option">Hardware</option>
-          <option>Merchandise</option>
-          <option>News & Events</option>
-          <option>Supports</option>
+        <select id="categories" name="categories" class="form-style">
+          <option class="form-style">All categories</option>
+          <option class="form-style">Games</option>
+          <option class="form-style">Hardware</option>
+          <option class="form-style">Merchandise</option>
+          <option class="form-style">News & Events</option>
+          <option class="form-style">Supports</option>
         </select>
-  </form>
+   </form>
 
    <nav> 
       <a href="https://en-americas-support.nintendo.com/">Support</a>                              
@@ -39,12 +40,11 @@
       <a href="support.html">Log in/Sign up</a>
    </nav>
 
-   
- </header>
- <hr>
+  </div>
+  <hr>
 
-<section>
-    <div class="d-flex justify-content-center">
+ <section>
+   <div class="d-flex justify-content-center">
         <form action="">
       <select name="MyNintendo" id="Mynintendo">
        <option value="MyNintendo">My Nintendo Store</option>
@@ -62,10 +62,10 @@
        <option value="Play-Nintendo">Play Nintendo</option>
       </select>
     </form>
-</div>    
-</section>
-
-</div>                                   <!--Div creato per includere in header anche i successivi 5 form--> 
+   </div>    
+  </section>
+    
+</header>                         
  
 
  <main>
@@ -79,3 +79,4 @@
 </body>
 
 </html>
+
