@@ -18,6 +18,7 @@
     width: 20em;
     }
     
+
     nav {
     position: relative;
     left: 59vw;
@@ -32,3 +33,10 @@
     color: rgb(72, 72, 72);
     font-weight: bold;
     }
+
+
+   hr {
+    position: relative; bottom:0.3em;
+    border-color: rgb(240, 240, 240);
+    
+   }
