@@ -1,0 +1,2 @@
+## Workflow da seguire: Clonazione project in locale, a partire da dev creazione del proprio branch attribuendogli nome del task assegnato comunemente, inoltro della pull
+ request prestando attenzione che sia dal proprio branch verso dev
