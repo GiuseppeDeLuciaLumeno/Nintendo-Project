@@ -5,11 +5,17 @@
         }
     
 
+
     nav > a {
     text-decoration: none;
     color: rgb(72, 72, 72);
     font-weight: bold;
     text-align: right;
+    }
+
+    nav {
+
+        position: relative; left: 70rem;
     }
     
 
@@ -18,11 +24,6 @@
     width: 20em;
     }
     
-    nav {
-    position: relative;
-    left: 59vw;
-    }
-
     form {
     margin-left: 0.1rem;
     }
@@ -32,3 +33,14 @@
     color: rgb(72, 72, 72);
     font-weight: bold;
     }
+
+
+
+   hr {
+    position: relative; bottom:0.4em;
+    border-color: rgb(240, 240, 240);
+    
+   }
+
+   
+    
