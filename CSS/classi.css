@@ -2,7 +2,7 @@
 .d-flex {
     display: flex;
 }
- 
+
 .justify-content-center {
     justify-content: center;
    }
@@ -42,16 +42,11 @@ input:hover::placeholder {
 .margin-input {
     margin-left: 1em;
 }
-.unset-div {
-    display: unset;
-    
-}
-
 
 .hr1 {
     position: relative; bottom:0.4em;
     border-color: rgb(245, 245, 245);
-    
+
    }
 
    .hr3 {
@@ -60,7 +55,7 @@ input:hover::placeholder {
     border-color: rgb(245, 245, 245);
 
    }
-     
+
    #justify-img-center {
     display: flex;
     justify-content: center;
@@ -72,7 +67,7 @@ input:hover::placeholder {
    margin-left: 8.8rem;
    margin-top: 1rem;
    color: rgb(77, 76, 76);
-    
+
 }
 
 .p1 {
@@ -86,11 +81,8 @@ input:hover::placeholder {
 }
 
 .bg-color {
-
-   background: linear-gradient(rgba(69,55,34,1) 0%, rgb(255, 254, 253) 50%, rgb(253, 253, 253) 100%);
-   border-color: rgb(255, 255, 255);
-   margin-top: 1rem;
-}
+    background: linear-gradient(rgba(76,28,36,1) 0%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 100%);
+ }
 
 .available-now {
     font-weight: bold;
@@ -109,23 +101,24 @@ input:hover::placeholder {
 
 .box-model {
 
-    border: 0.1rem solid;
+    border: 0.065rem solid;
     color: rgb(223, 219, 219);
     border-radius: 0.3rem;
 }
 
-.figcaption {
+.figcaption {                                   /*--> Space figcaption*/
     font-weight: normal;
     font-size: 1rem;
-    margin-left: 0.5em;
     margin-top: 0.2rem;
+    position: relative; right: 2.8rem;
+    margin-top: 2.7rem;
    }
 
 
-   #p-red {
-    color: rgb(199, 12, 13); 
+   #red-bar{
+    color: rgb(199, 12, 13);                 /*--> Space figcaption*/
+    position: relative; right: 2rem;
+    margin-top: 2.5rem;
    }
 
-   .bg-color {
-    background-color: linear-gradient(rgb(69,55,39), rgb(white));
-   }
+
