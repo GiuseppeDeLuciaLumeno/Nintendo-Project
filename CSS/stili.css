@@ -12,12 +12,12 @@
 
     nav > a {
     text-decoration: none;
-    color: rgb(72, 72, 72);
+    color: rgb(77, 76, 76);
     font-weight: bold;
 
     }
 
-    nav {
+    .nav {
 
         position: relative; left: 68rem;
     }
@@ -39,3 +39,28 @@
    div > img {
     border-radius: 0.3rem;
    }
+
+   figure a {
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1rem;
+
+   }
+   figure > div {
+    margin-left: 2rem;
+   }
+
+   figcaption {
+   margin-left: 1em;
+   line-height: 3rem;
+
+   }
+
+   
+   div > p {
+    margin-left: 1rem;
+   }
+
+  
