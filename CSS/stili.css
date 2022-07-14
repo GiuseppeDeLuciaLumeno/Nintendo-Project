@@ -10,7 +10,7 @@
     text-decoration: none;
     color: rgb(72, 72, 72);
     font-weight: bold;
-    text-align: right;
+
     }
 
     nav {
@@ -32,13 +32,6 @@
     border: none;
     }
 
-
-
-   hr {
-    position: relative; bottom:0.4em;
-    border-color: rgb(240, 240, 240);
-    
+   div > img {
+    border-radius: 0.3rem;
    }
-
-   
-    
