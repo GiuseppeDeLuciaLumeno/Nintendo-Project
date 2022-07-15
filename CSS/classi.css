@@ -12,21 +12,22 @@
    }
 
 .align-item {
-
     align-items: center;
 }
 
+.nav a {
+    position: relative; left: 68rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(77, 76, 76);
+    font-size: 0.88rem;
+
+
+}
 
 .form-style {
    font-weight: bold;
    color: rgb(77, 76, 76);
-}
-
-.section-size {
-
-    font-size: 0.9rem;
-    color: rgb(77, 76, 76);
-    font-weight: bold;
 }
 
 #position-section {
@@ -34,18 +35,24 @@
     margin-bottom: 1.1rem;
 }
 
-input:hover::placeholder {
-
-    color: red;
+.section-size {
+    font-size: 0.9rem;
+    color: rgb(77, 76, 76);
+    font-weight: bold;
 }
 
 .margin-input {
     margin-left: 1em;
 }
 
+                                                       /*Orizzontal Lines*/
+
+.hr1, .hr2, .hr3 {
+    border-color: rgb(250, 249, 249, 0.2);
+}
+
 .hr1 {
     position: relative; bottom:0.3em;
-    border-color: rgb(250, 249, 249, 0.2);
 
    }
 
@@ -53,14 +60,12 @@ input:hover::placeholder {
     width: 1470px;
     position: relative; left: 13.5rem;
     position: relative; bottom: 2rem;
-    border-color: rgb(250, 249, 249, 0.2);
 
    }
 
-.hr3 {
 
+.hr3 {
     margin-top: 0rem;
-    border-color: rgb(250, 249, 249, 0.2);
    }
 
 #justify-img-center {
@@ -105,14 +110,12 @@ input:hover::placeholder {
 }
 
 a.available-now:hover {
-
     zoom: 1.1;
 }
 
 
 
 .box-model {
-
     border: 0.065rem solid;
     color: rgb(223, 219, 219);
     border-radius: 0.3rem;
@@ -120,7 +123,7 @@ a.available-now:hover {
 
 }
 
-.figcaption {                                   /*--> Space figcaption*/
+.figcaption {                                   /*Space figcaption*/
     font-weight: normal;
     font-size: 1rem;
     margin-top: 0.2rem;
@@ -129,7 +132,6 @@ a.available-now:hover {
    }
 
 .box-model {
-
     border: 0.065rem solid;
     color: rgb(223, 219, 219);
     border-radius: 0.3rem;
@@ -138,7 +140,6 @@ a.available-now:hover {
 }
 
 div a > span {
-
     color: white;
 }
 
