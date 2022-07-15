@@ -22,7 +22,7 @@
    color: rgb(77, 76, 76);
 }
 
-.sectionsize {
+.section-size {
 
     font-size: 0.9rem;
     color: rgb(77, 76, 76);
@@ -44,19 +44,26 @@ input:hover::placeholder {
 }
 
 .hr1 {
-    position: relative; bottom:0.4em;
-    border-color: rgb(245, 245, 245);
+    position: relative; bottom:0.3em;
+    border-color: rgb(250, 249, 249, 0.2);
 
    }
 
-   .hr3 {
+.hr2 {
     width: 1470px;
     position: relative; left: 13.5rem;
-    border-color: rgb(245, 245, 245);
+    position: relative; bottom: 2rem;
+    border-color: rgb(250, 249, 249, 0.2);
 
    }
 
-   #justify-img-center {
+.hr3 {
+
+    margin-top: 0rem;
+    border-color: rgb(250, 249, 249, 0.2);
+   }
+
+#justify-img-center {
     display: flex;
     justify-content: center;
     position: relative; top: 2.8rem;
@@ -65,7 +72,6 @@ input:hover::placeholder {
 .h1 {
    padding: 5rem;
    margin-left: 8.8rem;
-   margin-top: 1rem;
    color: rgb(77, 76, 76);
 
 }
@@ -73,37 +79,45 @@ input:hover::placeholder {
 .p1 {
     padding: 5rem;
     margin-left: 8.8rem;
-    margin-top: 1rem;
     color: rgb(77, 76, 76);
     font-size: 2rem;
     font-weight: bold;
+    position: relative; bottom: 3rem;
 
 }
 
 .bg-color {
-    background: linear-gradient(rgba(76,28,36,1) 0%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(rgba(76,28,36,1) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
  }
+
 
 .available-now {
     font-weight: bold;
     text-decoration: none;
     margin-left: 2rem;
-    border: 0.5rem solid; color: rgb(199, 12, 13);
-    background-color: rgb(199, 12, 13);
-    border-radius: 0.8rem;
-    color: white;
+    background-color: rgb(233, 13, 13);
+    border-radius: 0.3rem;
     padding: 1rem;
     font-size: 1.1rem;
-    width: 10vw;
+    width: 9vw;
     text-align: center;
 
 }
+
+a.available-now:hover {
+
+    zoom: 1.1;
+}
+
+
 
 .box-model {
 
     border: 0.065rem solid;
     color: rgb(223, 219, 219);
     border-radius: 0.3rem;
+    height: 18em;
+
 }
 
 .figcaption {                                   /*--> Space figcaption*/
@@ -114,11 +128,20 @@ input:hover::placeholder {
     margin-top: 2.7rem;
    }
 
+.box-model {
 
-   #red-bar{
-    color: rgb(199, 12, 13);                 /*--> Space figcaption*/
-    position: relative; right: 2rem;
-    margin-top: 2.5rem;
-   }
+    border: 0.065rem solid;
+    color: rgb(223, 219, 219);
+    border-radius: 0.3rem;
+    height: 17.5rem;
+
+}
+
+div a > span {
+
+    color: white;
+}
+
+
 
 
