@@ -28,6 +28,25 @@
     border-radius: 0.3rem;
     }
 
+    img[src*="teen"]  {
+
+    position: relative; left: 19.5rem;
+
+    }
+
+    a ~ p {
+
+      font-size: 13px;
+      position: relative; left: 19.6rem;
+
+       }
+
+  /*sostituita con <br> inline
+  /* main> div > div > p {
+     margin-top: 2rem;
+     margin-left: 2.4rem;
+     font-size: small;
+   } */
 
    figure a {
     text-decoration: none;
@@ -54,6 +73,16 @@
 
    }
 
+   figcaption:hover {
+   color: red;
+   }
+
+   figcaption span {
+    display: block;
+    margin-left: 0rem;
+   }
+
+
   figure p {
     border-left: 0.15rem solid red;
     font-weight: initial;
@@ -63,16 +92,23 @@
   }
 
   span {
-    margin-left: 0.3rem;
+    margin-left: 1.5rem;
   }
 
   div a > span {
-   margin-right: 0.5rem;               /*Red Available-Now margin-right*/
+   margin-right: 0.5rem;
+   position: relative; right:0.6rem;               /*Red Available-Now margin-right*/
 
   }
 
   /* img navbar resizing
-  img[src$="png"] {
+     img[src$="png"] {
      width: 16rem;
      height: 9rem;
   }     */
+
+main > div h1 {
+   position: relative; left: 6rem;                 /*Position MONSTER HUNTER RISE + SUNBREAK h1*/
+}
+
+
