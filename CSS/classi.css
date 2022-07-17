@@ -2,7 +2,7 @@
 .d-flex {
     display: flex;
 }
- 
+
 .justify-content-center {
     justify-content: center;
    }
@@ -12,10 +12,131 @@
    }
 
 .align-item {
-
     align-items: center;
 }
 
+.nav a {
+    position: relative; left: 80rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(77, 76, 76);
+    font-size: 0.88rem;
+
+}
+
+.form-style {
+   font-weight: bold;
+   color: rgb(77, 76, 76);
+}
+
+#position-section {
+    position: relative; top: 0.4rem;
+    margin-bottom: 1.1rem;
+}
+
+.section-size {
+    font-size: 0.9rem;
+    color: rgb(77, 76, 76);
+    font-weight: bold;
+}
+
+.margin-input {
+    margin-left: 1em;
+}
+
+.hr1, .hr2, .hr3 {
+    border-color: rgb(250, 249, 249, 0.2);
+}
+
+.hr1 {
+    position: relative; bottom:0.3em;                          /*Orizzontal Lines*/
+
+   }
+
+.hr2 {
+    width: 1470px;
+    position: relative; left: 20.5rem;
+    position: relative; bottom: 2rem;
+
+   }
+
+
+.hr3 {
+    margin-top: 0rem;
+   }
+
+#justify-img-center {
+    display: flex;
+    justify-content: center;
+    position: relative; top: 2.8rem;
+   }
+
+.h1 {
+   padding: 5rem;
+   margin-left: 8.8rem;
+   color: rgb(77, 76, 76);
+
+}
+
+.p1 {
+    padding: 5rem;
+    margin-left: 14.5rem;
+    color: rgb(77, 76, 76);
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative; bottom: 3rem;
+
+}
+
+.bg-color {
+    background: linear-gradient(rgba(76,28,36,1) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+ }
+
+
+.available-now {
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8rem;
+    background-color: rgb(233, 13, 13);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    width: 9vw;
+    text-align: center;
+
+}
+
+a.available-now:hover {
+    zoom: 1.1;
+}
+
+.box-model {
+    border: 0.065rem solid;
+    color: rgb(223, 219, 219);
+    border-radius: 0.3rem;
+    height: 18em;
+
+}
+
+.figcaption {                                   /*Space figcaption*/
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    position: relative; right: 2.8rem;
+    margin-top: 2.7rem;
+   }
+
+.box-model {
+    border: 0.065rem solid;
+    color: rgb(223, 219, 219);
+    border-radius: 0.3rem;
+    height: 17.5rem;
+
+}
+
+div a > span {
+    color: white;
+}
 
 .form-style {
    font-weight: bold;

@@ -1,29 +1,21 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {                                                                       /*Initial format*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-        }
-    
+    font-family: "Open+Sans:wght@300", sans-serif;
+   }
 
-
-    nav > a {
-    text-decoration: none;
-    color: rgb(72, 72, 72);
-    font-weight: bold;
-    text-align: right;
-    }
-
-    nav {
-
-        position: relative; left: 70rem;
-    }
-    
+    input:hover::placeholder {
+    color: red;
+   }
 
     input {
     border: 0rem;
     width: 20em;
     }
-    
+
     form {
     margin-left: 0.1rem;
     }
@@ -32,13 +24,91 @@
     border: none;
     }
 
+   div > img {
+    border-radius: 0.3rem;
+    }
 
+    img[src*="teen"]  {
 
-   hr {
-    position: relative; bottom:0.4em;
-    border-color: rgb(240, 240, 240);
-    
+    position: relative; left: 19.5rem;
+
+    }
+
+    a ~ p {
+
+      font-size: 13px;
+      position: relative; left: 19.6rem;
+
+       }
+
+  /*sostituita con <br> inline
+  /* main> div > div > p {
+     margin-top: 2rem;
+     margin-left: 2.4rem;
+     font-size: small;
+   } */
+
+   figure a {
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    font-weight: bold;
+    font-size: 1rem;
+
    }
 
-   
-    
+   figure {
+    position: relative; bottom: 5rem;
+
+  }
+
+
+   figure div {
+    margin-left: 1rem;
+
+   }
+
+   figcaption {
+   margin-left: 1em;
+   line-height: 1.6rem;
+
+   }
+
+   figcaption:hover {
+   color: red;
+   }
+
+   figcaption span {
+    display: block;
+    margin-left: 0rem;
+   }
+
+
+  figure p {
+    border-left: 0.15rem solid red;
+    font-weight: initial;
+    font-size: 15px;
+    position: relative; left: 1.2rem; top: 2.5rem;
+
+  }
+
+  span {
+    margin-left: 1.5rem;
+  }
+
+  div a > span {
+   margin-right: 0.5rem;
+   position: relative; right:0.6rem;               /*Red Available-Now margin-right*/
+
+  }
+
+  /* img navbar resizing
+     img[src$="png"] {
+     width: 16rem;
+     height: 9rem;
+  }     */
+
+main > div h1 {
+   position: relative; left: 6rem;                 /*Position MONSTER HUNTER RISE + SUNBREAK h1*/
+}
+
+
