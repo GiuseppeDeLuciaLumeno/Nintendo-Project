@@ -22,7 +22,6 @@
     color: rgb(77, 76, 76);
     font-size: 0.88rem;
 
-
 }
 
 .form-style {
@@ -44,8 +43,6 @@
 .margin-input {
     margin-left: 1em;
 }
-
-
 
 .hr1, .hr2, .hr3 {
     border-color: rgb(250, 249, 249, 0.2);
@@ -113,8 +110,6 @@ a.available-now:hover {
     zoom: 1.1;
 }
 
-
-
 .box-model {
     border: 0.065rem solid;
     color: rgb(223, 219, 219);
@@ -142,3 +137,9 @@ a.available-now:hover {
 div a > span {
     color: white;
 }
+
+.form-style {
+   font-weight: bold;
+   color: rgb(72, 72, 72);
+}
+
