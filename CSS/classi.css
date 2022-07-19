@@ -43,8 +43,6 @@
     margin-left: 1em;
 }
 
-
-
 .hr1, .hr2, .hr3 {
     border-color: rgb(250, 249, 249, 0.2);
 }
@@ -175,5 +173,13 @@ margin-right: auto;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    gap: 1.5rem;
+    gap: 1.5rem
    }
+    ;
+
+.form-style {
+font-weight: bold;
+   color: rgb(72, 72, 72);
+}
+
+
