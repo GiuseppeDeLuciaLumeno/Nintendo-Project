@@ -43,8 +43,6 @@
     margin-left: 1em;
 }
 
-
-
 .hr1, .hr2, .hr3 {
     border-color: rgb(250, 249, 249, 0.2);
 }
@@ -133,6 +131,7 @@ div a > span {
     color: white;
 }
 
+
 .teen-img-tex {
     color: black;
     font-size: small;
@@ -177,3 +176,8 @@ margin-right: auto;
     width: 70%;
     gap: 1.5rem;
    }
+=======
+.form-style {
+   font-weight: bold;
+   color: rgb(72, 72, 72);
+}
