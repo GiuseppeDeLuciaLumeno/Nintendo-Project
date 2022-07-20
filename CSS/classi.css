@@ -7,7 +7,7 @@
     justify-content: center;
    }
 
-.justify-content-end {
+.jce{
     justify-content: flex-end;
    }
 
@@ -16,7 +16,6 @@
 }
 
 .nav a {
-    position: relative; left: 80rem;
     text-decoration: none;
     font-weight: bold;
     color: rgb(77, 76, 76);
@@ -55,37 +54,27 @@
 
 .hr2 {
     width: 1470px;
-    position: relative; left: 20.5rem;
-    position: relative; bottom: 2rem;
 
    }
 
-
-.hr3 {
-    margin-top: 0rem;
-   }
-
-#justify-img-center {
+.justify-img-center {
     display: flex;
     justify-content: center;
-    position: relative; top: 2.8rem;
+
    }
 
 .h1 {
-   padding: 5rem;
-   margin-left: 8.8rem;
+
    color: rgb(77, 76, 76);
 
 }
 
-.p1 {
-    padding: 5rem;
-    margin-left: 14.5rem;
-    color: rgb(77, 76, 76);
-    font-size: 2rem;
-    font-weight: bold;
-    position: relative; bottom: 3rem;
+.h2 {
 
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(77, 76, 76);
+    margin-top: 1rem;
 }
 
 .bg-color {
@@ -94,20 +83,19 @@
 
 
 .available-now {
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 8rem;
-    background-color: rgb(233, 13, 13);
-    border-radius: 0.3rem;
-    padding: 1rem;
-    font-size: 1.1rem;
-    width: 9vw;
-    text-align: center;
 
+    background-color: rgb(233, 13, 13);
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    height: 2.5em;
+    width: 8rem;
 }
 
-a.available-now:hover {
-    zoom: 1.1;
+.available-now-href {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 .box-model {
@@ -134,12 +122,63 @@ a.available-now:hover {
 
 }
 
+.nav-margin-bottom {
+    margin-bottom: 6rem;
+  }
+
+
 div a > span {
     color: white;
 }
 
+.teen-img-tex {
+    color: black;
+    font-size: small;
+
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1.5rem;
+    width: 2rem;
+    align-items: center;
+    justify-content: start;
+
+}
+
+
+@media (min-width: 1920px) {
+.img-position {
+
+width: 96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+}
+
+.img-position {                  /*ALIGNMENT ITEMS TO MAIN IMG*/
+
+    max-width: 91rem;
+
+}
+
+.p-no-dec {
+    text-decoration: none;
+}
+   .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    gap: 1.5rem
+   }
+    ;
+
 .form-style {
-   font-weight: bold;
+font-weight: bold;
    color: rgb(72, 72, 72);
 }
 
@@ -167,3 +206,4 @@ div a > span {
     transform: scale(1.15);
     transition: transform 200ms ease-in-out;
 }
+
