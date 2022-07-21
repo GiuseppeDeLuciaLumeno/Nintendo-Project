@@ -92,4 +92,162 @@
   margin: 1.2rem 5rem;
 }
 
+/* News Containers & Articles */
+#news{
+  width: 1140px;
+  margin: 0 auto;
+}
 
+#news h2{
+  color: #484848;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+#main-articles{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  justify-content: space-between;
+}
+
+#main-articles h3{
+  padding-bottom: 16px;
+}
+
+#main-articles p{
+  padding-bottom: 16px;
+}
+
+#main-articles img{
+  width:556px;
+}
+
+#main-articles img:hover{
+  filter: brightness(0.5);
+}
+
+#main-articles article{
+  width: 556px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+#main-articles a{
+  font-weight: bold;
+   color: #ff0000;
+}
+
+#main-articles h3:hover{
+  color: #ff0000;
+}
+
+#main-articles a:hover{
+   color: #a01a1a;
+}
+
+#sub-articles{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#sub-articles h3{
+  padding-bottom: 16px;
+}
+
+#sub-articles p{
+  padding-bottom: 16px;
+}
+
+#sub-articles img{
+  width: 262px;
+}
+
+#sub-articles img:hover{
+  filter: brightness(0.5);
+}
+
+#sub-articles article{
+  width: 262px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+#sub-articles h3:hover{
+  color: #ff0000;
+}
+
+#sub-articles a{
+  font-weight: bold;
+  color: #ff0000;
+}
+
+#sub-articles a:hover{
+  color: #a01a1a;
+}
+
+/* News Button */
+#news-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+#news-button:hover{
+  background-color: #a01a1a;
+  padding: 15px 25px;
+  transition: all 300ms ease-out 25ms;
+  margin-bottom: 30px;
+}
+
+/* Characters Font Styles*/
+#characters-title{
+  color: #484848;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#characters h2{
+  margin-top: 60px;
+}
+
+/* Characters container */
+#characters{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* Characters Background */
+#supermario-bg{
+  background-image: url(../immagini/characters-bg/mario-bg.png);
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#zelda-bg{
+  background-image: url(../immagini/characters-bg/zelda-bg.jfif);
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#animal-bg{
+  background-image: url(../immagini/characters-bg/animal-bg.jfif);
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#kirby-bg{
+  background-image: url(../immagini/characters-bg/kirby-bg.jfif);
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}

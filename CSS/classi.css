@@ -182,4 +182,28 @@ font-weight: bold;
    color: rgb(72, 72, 72);
 }
 
+/* Characters Class*/
+.characters-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.characters-container h3{
+    color: #484848;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 20px 0 60px 0;
+}
+
+.characters-img{
+    width: 274px;
+    height: 274px;
+    cursor: pointer;
+}
+
+.characters-img:hover{
+    transform: scale(1.15);
+    transition: transform 200ms ease-in-out;
+}
 
