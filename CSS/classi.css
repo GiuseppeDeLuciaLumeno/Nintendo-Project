@@ -182,4 +182,79 @@ font-weight: bold;
    color: rgb(72, 72, 72);
 }
 
+main, header {
+    overflow: hidden;
+}
 
+/* Online Store */
+.online-store {
+    width: 96%;
+    margin-inline: auto;
+    margin-block: 3rem;
+}
+
+.online-store h1 {
+    color: rgb(72, 72, 72);
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.online-store .store-img {
+    display: block;
+    width: 100%;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+.online-store p {
+    margin: 1.3125rem 0 calc(1.3125rem + 1rem);
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+}
+
+.online-store button {
+    display: block;
+    margin-inline: auto;
+    width: 100%;
+    background-color: rgb(230, 0, 18);
+    color: #ffffff;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 1025px) {
+    .online-store {
+        max-width: 71.5rem;
+    }
+
+    .online-store img {
+        margin-inline: auto;
+        width: 100%;
+    }
+
+    .online-store .cta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .online-store .cta form {
+        flex-shrink: 0;
+    }
+}
+
+@media (min-width: 768px)  {
+    .online-store p {
+        font-size: 1.3125rem;
+    }
+}
+
+.online-store + hr {
+    border-color: rgb(250, 249, 249, 0.2);
+}

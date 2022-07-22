@@ -174,11 +174,24 @@
 
     <!-- Online Store -->
     <section class="online-store">
-      <h2 class="title">Online Store</h2>
+      <h1 class="os-title">Online Store</h1>
 
       <a href="https://www.nintendo.com/store" class="store-link">
+        <!-- <picture class="img-box">
+          <img 
+            srcset="immagini/nintendo-store.webp 500w,
+                    immagini/nintendo-store-large.png 800w"
+            sizes="(max-width: 767px) 500px,
+                  800px"
+            src="immagini/nintendo-store-large.png"
+            alt="My Nintendo Store"
+            class="store-img"
+          >
+        </picture> -->
         <picture class="img-box">
-          <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_1200/ncom/en_US/merchandising/MNS_desktop_TEST" alt="My Nintendo Store" class="store-img">
+          <source media="(max-width: 767px)" srcset="immagini/nintendo-store.webp">
+          <source media="(min-width: 768px)" srcset="immagini/nintendo-store-large.png">
+          <img src="immagini/nintendo-store-large.png" alt="My Nintendo Store" class="store-img">
         </picture>
       </a>
 
@@ -195,7 +208,7 @@
 
     <!-- Gaming Systems -->
     <section class="gaming-systems">
-      <h2 class="title">Gaming Systems</h2>
+      <h1 class="title">Gaming Systems</h1>
 
       <a href="https://www.nintendo.com/switch" class="nintendo-switch-page-link">
         <picture class="img-box">
