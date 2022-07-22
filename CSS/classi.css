@@ -195,7 +195,7 @@ main, header {
 
 .online-store h1 {
     color: rgb(72, 72, 72);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 1.75rem;
 }
 
@@ -256,5 +256,78 @@ main, header {
 }
 
 .online-store + hr {
+    border-color: rgb(250, 249, 249, 0.2);
+}
+
+/* Gaming Systems */
+.gaming-systems {
+    width: 96%;
+    margin-inline: auto;
+    margin-block: 3rem;
+}
+
+.gaming-systems h1 {
+    color: rgb(72, 72, 72);
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+}
+
+.gaming-systems .nintendo-switch-family-img {
+    display: block;
+    width: 100%;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+.gaming-systems p {
+    margin: 1.3125rem 0 calc(1.3125rem + 1rem);
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+}
+
+.gaming-systems button {
+    display: block;
+    margin-inline: auto;
+    width: 100%;
+    background-color: rgb(230, 0, 18);
+    color: #ffffff;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 1025px) {
+    .gaming-systems {
+        max-width: 71.5rem;
+    }
+
+    .gaming-systems img {
+        margin-inline: auto;
+        width: 100%;
+    }
+
+    .gaming-systems .cta {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .gaming-systems .cta form {
+        flex-shrink: 0;
+    }
+}
+
+@media (min-width: 768px)  {
+    .gaming-systems p {
+        font-size: 1.3125rem;
+    }
+}
+
+.gaming-systems + hr {
     border-color: rgb(250, 249, 249, 0.2);
 }
