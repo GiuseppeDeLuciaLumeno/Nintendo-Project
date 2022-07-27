@@ -362,10 +362,31 @@
 
 #fourth-row-footer{
   background-color: #242424;
+  padding: 36px 36px 100px;
+  text-align: center;
+
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  padding: 36px;
+  gap: 2rem;
+}
+
+@media (min-width: 1025px) {
+  #fourth-row-footer{
+    text-align: left;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 36px;
+  }
+
+  #fourth-row-footer #region-footer,
+  #fourth-row-footer > ul {
+    flex-shrink: 0;
+  }
+
+  #fourth-row-footer p {
+    flex-grow: 1;
+  }
 }
 
 #fourth-row-footer p{
