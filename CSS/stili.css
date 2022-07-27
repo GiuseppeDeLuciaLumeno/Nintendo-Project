@@ -254,18 +254,41 @@
 }
 
 /* Footer */
-#first-row-footer{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+#first-row-footer {
   background-color: #E60012;
-  padding: 36px;
+  padding: 36px 16px;
+  max-width: 90rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  #first-row-footer{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #social {
+    gap: 4rem;
+  }
 }
 
 #nintendo-footer-logo{
   width: 195px;
   height: 50px;
 }
+
 
 #second-row-footer{
   display: flex;
