@@ -254,15 +254,22 @@ div a>span {
 .nav-bar {
     display: flex;
     justify-content: flex-end;
-    gap: 1.5rem;
+    gap: 1.9rem;
     margin-right: 15px;
 }
 
-.prova {
+.space-between {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.hyper-align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    }
+
 
 .form-style {
     font-weight: bold;
@@ -442,4 +449,27 @@ main, header {
 
 .gaming-systems + hr {
     border-color: rgb(250, 249, 249, 0.2);
+}
+
+
+svg {
+    width: 18px;
+    height: 18px;
+    color: currentColor;
+   /* display: inline-block; */
+
+
+}
+
+div.d-inline:hover, .form-style:hover {
+    color: red;
+}
+
+
+.d-inline {
+    display: inline;
+}
+
+.select-hover:hover {
+    color: red;
 }
