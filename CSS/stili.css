@@ -253,4 +253,100 @@
   overflow: hidden;
 }
 
+/* Footer */
+#first-row-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #E60012;
+  padding: 36px;
+}
 
+#nintendo-footer-logo{
+  width: 195px;
+  height: 50px;
+}
+
+#second-row-footer{
+  display: flex;
+  padding: 36px;
+  justify-content: space-between;
+}
+
+#second-row-footer div{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  min-width: 15%;
+}
+
+#second-row-footer div h3{
+  font-size: 18px;
+  color: #484848;
+}
+
+#second-row-footer div a{
+  font-weight: bold;
+  color: #E60012;
+  text-decoration: none;
+  padding-top: 16px;
+}
+
+#second-row-footer div a:hover{
+  text-decoration: underline;
+  color: #ac000d;
+}
+
+#third-row-footer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 36px;
+}
+
+#third-row-footer img{
+  width: 62px;
+}
+
+#fourth-row-footer{
+  background-color: #242424;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 36px;
+}
+
+#fourth-row-footer p{
+  font-size: 12px;
+  color: #fff;
+}
+
+#fourth-row-footer ul{
+  display: flex;
+  list-style-type: none;
+}
+
+#fourth-row-footer li{
+  padding-right: 20px;
+}
+
+#fourth-row-footer a{
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#fourth-row-footer a:hover{
+  text-decoration: underline;
+}
+
+#region-footer{
+  display: flex;
+  align-items: center;
+}
+
+#us-flag{
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
