@@ -473,3 +473,13 @@ div.d-inline:hover, .form-style:hover {
 .select-hover:hover {
     color: red;
 }
+
+/* Footer*/
+.social-icons{
+    width: 30px;
+    cursor: pointer;
+}
+
+.border-left-section{
+    border-left: 1px solid lightgray;
+}

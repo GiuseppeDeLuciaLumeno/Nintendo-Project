@@ -253,4 +253,174 @@
   overflow: hidden;
 }
 
+/* Footer */
+#first-row-footer {
+  background-color: #E60012;
+  padding: 36px 16px;
+  max-width: 90rem;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#nintendo-footer-logo{
+  width: 195px;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  #first-row-footer{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #social {
+    gap: 4rem;
+  }
+}
+
+
+
+#second-row-footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 36px;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  #second-row-footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #second-row-footer .support {
+    grid-row: 2 / span 2;
+  }
+}
+
+@media (min-width: 1025px) {
+  #second-row-footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #second-row-footer .support {
+    grid-column-start: 4;
+    grid-row: 1 / span 1;
+  }
+}
+
+#second-row-footer div{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  min-width: 15%;
+}
+
+#second-row-footer div h3{
+  font-size: 18px;
+  color: #484848;
+}
+
+#second-row-footer div a{
+  font-weight: bold;
+  color: #E60012;
+  text-decoration: none;
+  padding-top: 16px;
+}
+
+#second-row-footer div a:hover{
+  text-decoration: underline;
+  color: #ac000d;
+}
+
+#third-row-footer{
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+}
+
+@media (min-width: 1025px) {
+  #third-row-footer {
+    justify-content: flex-end;
+  }
+}
+
+#third-row-footer img{
+  width: 62px;
+}
+
+#fourth-row-footer{
+  background-color: #242424;
+  padding: 36px 36px 100px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 1025px) {
+  #fourth-row-footer{
+    text-align: left;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 36px;
+  }
+
+  #fourth-row-footer #region-footer,
+  #fourth-row-footer > ul {
+    flex-shrink: 0;
+  }
+
+  #fourth-row-footer p {
+    flex-grow: 1;
+  }
+}
+
+#fourth-row-footer p{
+  font-size: 12px;
+  color: #fff;
+}
+
+#fourth-row-footer ul{
+  display: flex;
+  list-style-type: none;
+}
+
+#fourth-row-footer li{
+  padding-right: 20px;
+}
+
+#fourth-row-footer a{
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#fourth-row-footer a:hover{
+  text-decoration: underline;
+}
+
+#region-footer{
+  display: flex;
+  align-items: center;
+}
+
+#us-flag{
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
