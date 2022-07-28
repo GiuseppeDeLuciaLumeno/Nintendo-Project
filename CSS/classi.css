@@ -483,3 +483,130 @@ div.d-inline:hover, .form-style:hover {
 .border-left-section{
     border-left: 1px solid lightgray;
 }
+
+
+.flexbox2{
+    display: flex;
+    flex-direction: row;
+}
+
+.titlebox{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+.titlebox>p{
+    border-left: 0.5px #484848 solid;
+    padding-top: 10px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.cardbox{
+    margin: 40px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    border: solid gainsboro 0.5px;
+    height: 350px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.navcard{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    margin-left: 20px;
+}
+
+  
+
+
+.footercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.footercard>p{
+    border-left: 0.15rem solid red;
+    font-weight: initial;
+    font-size: 15px;
+    
+    
+    
+    color: rgb(98, 96, 96);
+    font-size: medium;
+}
+.footercard>a>img:hover{
+    
+    transform: scale(1.35);
+    transition: transform 200ms ease-in-out;
+}
+
+p>a{
+    margin-left: 10px;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    color: #ff1d1d;
+    
+}
+
+figcaption>img:hover{
+    opacity: 20%;
+}
+
+
+.cardbox2{
+    margin: 40px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    border: solid gainsboro 0.5px;
+    height: 350px;
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.cardbox2>header{
+    background-color: red;
+    
+    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 100px;
+}
+
+.colorbanner{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.cardheader2{
+    background-color: blue;
+    margin: 40px;
+    
+    border: blue 5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 100px;
+
+
+}
