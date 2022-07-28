@@ -314,52 +314,41 @@
 
 
 /* second row */
-#second-row-footer{
+#second-row-footer {
+  padding: 3rem 0 1rem;
+}
+
+#second-row-footer-wrapper{
+  width: 60%;
+  min-width: 250px;
+  max-width: 90rem;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 36px;
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
 }
 
-
-@media (min-width: 768px) {
-  #second-row-footer {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  #second-row-footer .support {
-    grid-row: 2 / span 2;
-  }
-}
-
-@media (min-width: 1025px) {
-  #second-row-footer {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  #second-row-footer .support {
-    grid-column-start: 4;
-    grid-row: 1 / span 1;
-  }
-}
-
-#second-row-footer div{
+#second-row-footer-wrapper div{
   display: flex;
   flex-direction: column;
   padding-left: 20px;
-  min-width: 15%;
 }
 
 #second-row-footer div h3{
-  font-size: 18px;
+  font-size: 16px;
   color: #484848;
+  margin-bottom: 5px;
 }
 
 #second-row-footer div a{
   font-weight: bold;
+  font-size: 14px;
   color: #E60012;
   text-decoration: none;
-  padding-top: 16px;
+  padding-top: 10px;
+  line-height: 25px;
 }
 
 #second-row-footer div a:hover{
@@ -367,10 +356,121 @@
   color: #ac000d;
 }
 
+@media (min-width: 429px) {
+  #second-row-footer {
+    padding: 3rem 1rem 1rem;
+  }
+
+  #second-row-footer-wrapper {
+    width: 100%;
+
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+
+  #second-row-footer div h3 {
+    font-size: 18px;
+  }
+
+  #second-row-footer div a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #second-row-footer {
+    padding: 3rem 1rem 1rem;
+  }
+
+  #second-row-footer-wrapper {
+    width: 100%;
+
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+  }
+
+  #second-row-footer-wrapper .support {
+    grid-row: 2 / span 2;
+  }
+
+  #second-row-footer div h3 {
+    font-size: 18px;
+  }
+
+  #second-row-footer div a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) {
+  #second-row-footer {
+    padding: 3rem 1rem 1rem;
+  }
+
+  #second-row-footer-wrapper {
+    width: 100%;
+
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+  }
+
+  #second-row-footer-wrapper .support {
+    grid-column: 4 / 5;
+    grid-row: 1 / span 1;
+  }
+
+  #second-row-footer div h3 {
+    font-size: 18px;
+  }
+
+  #second-row-footer div a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #second-row-footer {
+    padding: 3rem 1rem 1rem;
+  }
+
+  #second-row-footer-wrapper {
+    width: 100%;
+
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1rem;
+  }
+
+  #second-row-footer-wrapper .about-nintendo {
+    border-left: none;
+  }
+
+  #second-row-footer-wrapper .about-nintendo,
+  #second-row-footer-wrapper .shop,
+  #second-row-footer-wrapper .my-nintendo-store-orders,
+  #second-row-footer-wrapper .support {
+    grid-row: 1 / span 2;
+  }
+
+  #second-row-footer div h3 {
+    font-size: 18px;
+  }
+
+  #second-row-footer div a {
+    font-size: 16px;
+  }
+}
+
+/* third row footer */
 #third-row-footer{
+  padding: 0 2rem;
+
   display: flex;
   justify-content: center;
-  padding: 36px;
+  margin-bottom: 3rem;
+}
+
+#third-row-footer img{
+  width: 62px;
 }
 
 @media (min-width: 1025px) {
@@ -379,10 +479,7 @@
   }
 }
 
-#third-row-footer img{
-  width: 62px;
-}
-
+/* fourth row footer */
 #fourth-row-footer{
   background-color: #242424;
   padding: 36px 36px 100px;
