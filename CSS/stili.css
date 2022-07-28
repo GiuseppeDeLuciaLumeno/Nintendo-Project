@@ -11,6 +11,24 @@
     color: red;
    }
 
+   header {
+    position: fixed;
+    margin: 0px;
+    width: 100vw;
+    background-color: white;
+
+   }
+
+   #main {
+    margin-top: 7rem;
+   }
+
+   #margin-top {
+    margin-top: 6px;
+    margin-bottom: 10px;
+   }
+
+
     input {
     border: 0rem;
     width: 20em;
