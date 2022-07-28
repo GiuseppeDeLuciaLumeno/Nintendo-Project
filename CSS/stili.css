@@ -480,10 +480,15 @@
 }
 
 /* fourth row footer */
-#fourth-row-footer{
+#fourth-row-footer {
   background-color: #242424;
+}
+
+#fourth-row-footer-wrapper{
   padding: 36px 36px 100px;
   text-align: center;
+  margin: 0 auto;
+  max-width: 90rem;
 
   display: flex;
   flex-direction: column;
@@ -492,15 +497,15 @@
 }
 
 @media (min-width: 1025px) {
-  #fourth-row-footer{
+  #fourth-row-footer-wrapper{
     text-align: left;
     flex-direction: row;
     gap: 1rem;
     padding: 36px;
   }
 
-  #fourth-row-footer #region-footer,
-  #fourth-row-footer > ul {
+  #fourth-row-footer-wrapper > #region-footer,
+  #fourth-row-footer-wrapper > ul {
     flex-shrink: 0;
   }
 
