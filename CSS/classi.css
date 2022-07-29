@@ -79,7 +79,7 @@
 }
 
 .bg-color {
-    background: linear-gradient(rgba(76, 28, 36, 1) 0%, rgb(255, 255, 255) 18%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(rgba(76, 28, 36, 1) 0%, rgb(255, 255, 255) 16%, rgb(255, 255, 255) 100%);
 }
 
 
@@ -491,7 +491,7 @@ div.d-inline:hover, .form-style:hover {
     display: flex;
     align-items: center;
     padding: 20px;
-    
+
 }
 .titlebox>p{
     border-left: 0.5px #484848 solid;
@@ -506,13 +506,13 @@ div.d-inline:hover, .form-style:hover {
     margin-bottom: 70px;
     border: solid gainsboro 0.5px;
     height: 350px;
-    
-    
-    
+
+
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 
 }
 
@@ -523,7 +523,7 @@ div.d-inline:hover, .form-style:hover {
     margin-left: 20px;
 }
 
-  
+
 
 
 .footercard{
@@ -531,22 +531,22 @@ div.d-inline:hover, .form-style:hover {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 }
 .footercard>p{
     border-left: 0.15rem solid red;
     font-weight: initial;
     font-size: 15px;
-    
-    
-    
+
+
+
     color: rgb(98, 96, 96);
     font-size: medium;
 }
 .footercard>a>img:hover{
-    
+
     transform: scale(1.35);
     transition: transform 200ms ease-in-out;
 }
@@ -557,7 +557,7 @@ p>a{
     font-size: medium;
     font-weight: bold;
     color: #ff1d1d;
-    
+
 }
 
 figcaption>img:hover{
@@ -571,9 +571,9 @@ figcaption>img:hover{
     margin-bottom: 70px;
     border: solid gainsboro 0.5px;
     height: 350px;
-    
-    
-    
+
+
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -581,15 +581,15 @@ figcaption>img:hover{
 }
 .cardbox2>header{
     background-color: red;
-    
-    
+
+
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     height: 100px;
 }
 
 .colorbanner{
-    
+
     color: white;
     display: flex;
     justify-content: center;
@@ -599,7 +599,7 @@ figcaption>img:hover{
 .cardheader2{
     background-color: blue;
     margin: 40px;
-    
+
     border: blue 5px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
